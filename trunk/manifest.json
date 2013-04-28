@@ -1,0 +1,22 @@
+{
+  "name": "__MSG_application_title__",
+  "description": "__MSG_application_description__",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "permissions": [
+   "proxy","notifications","storage"
+  ],
+  "background" : {
+        "scripts" : [
+            "/js/bg.js"
+        ]
+  },
+  "icons": { "128": "/img/logo128.png" },
+  "default_locale" : "zh_CN",
+  "browser_action" : {
+		"default_title": "__MSG_application_title__",
+        "default_popup" : "/html/pop.html",
+        "default_icon": "/img/logo128.png"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'"
+}

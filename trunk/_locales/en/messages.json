@@ -1,0 +1,14 @@
+{
+	"application_title" : {
+		"message" : "Chinese Lunar Calendar"
+	},
+	"application_description" : {
+		"message" : "The Chinese calendar is a chrome-based platform plug. Including solar terms festive, holiday arrangements, daily Taboo, red evil, Lunar query, daily rising sign and the fortune of the day, auspicious, auspicious constellation information, weather forecasts.(Power by GOOGLE.)"
+	},
+	"notice_title" : {
+		"message" : "hi"
+	},
+	"notice_desc" : {
+		"message" : "loading..."
+	}
+}
